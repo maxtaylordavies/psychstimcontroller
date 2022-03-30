@@ -1,0 +1,11 @@
+VNC viewer
+userid:Pi 
+psw: H*I*
+
+system id idl 
+
+terminal
+ 
+ps -ef|grep python
+To stop: sudo kill -9 [ID]
+To run : sudo python /home/pi/bin/MouseUDP.py
